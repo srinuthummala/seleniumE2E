@@ -3,12 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="windowAuthentication.Authentication">
+      <class name="webTable.WebTable1">
         <methods>
-          <include name="init"/>
-          <include name="auth"/>
+          <include name="method"/>
+          <include name="setup"/>
+          <include name="quit"/>
         </methods>
-      </class> <!-- windowAuthentication.Authentication -->
+      </class> <!-- webTable.WebTable1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,5 +1,8 @@
 package windowAuthentication;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -14,6 +17,7 @@ public class Authentication extends Base {
 	
 	@Test
 	public void auth() {
-		driver.get("http://www.fb.com");
+		driver.get("https://mukeshotwani:password123@www.engprod-charter.net/");
+		
 	}
 }
